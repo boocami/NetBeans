@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="dashboard-wrapper">
+            <div class="dashboard-header">
+                <div class="branding">
+                    <a class="" href="#" title="User Menu">
+                        <img class="component-image component-image--circle" src="https://placem.at/things?w=40&amp;h=40">
+                        <span class="">Administrador</span>
+                    </a>
+                </div>
+                <nav class="component-nav">
+                    <ul class="component-menu component-menu--horizontal">
+                        <li class="">
+                            <button class="button" onclick="location.href='iniciarSesion.html'">Iniciar Sesión</button>
+                        </li>
+                        <li class="">
+                            <a class="" href="#">
+                                <i class="fa fa-fw fa-cog" title="Settings"></i>
+                            </a>
+                            <ul aria-hidden="true" class="">
+                                <li class="">
+                                    <div class="button-group">
+                                        <input class="" id="sidebar-hidden">
+                                        <label class="" for="sidebar-hidden"></label>
+                                        <input class="" id="sidebar-mini">
+                                        <label class="" for="sidebar-mini"></label>
+                                        <input class="" id="sidebar-full">
+                                        <label class="" for="sidebar-full"></label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                 </nav>
+            </div>
+            <div class="dashboard-body">
+                <div aria-hidden="false" class="dashboard-sidebar">
+                    <nav class="component-nav ui-full-height ui-scrollable">
+                    <ul class="component-menu component-menu--vertical">
+                        <li class="">
+                            <a class="" href="#">
+                                <span class="">
+                                    <i class="fa fa-fw fa-institution"></i>
+                                </span>
+                                <span class="">
+                                    Home
+                                </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="" href="registroEntrenador.jsp">
+                                <span class="">
+                                    <i class="fa fa-fw fa-file"></i>
+                                </span>
+                                <span class="">
+                                    Registrar entrenadores
+                                </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="" href="actualizarEntrenador.jsp">
+                            <span class="">
+                            <i class="fa fa-fw fa-folder"></i>
+                            </span>
+                                <span class="">
+                                    Actualizar entrenadores
+                                </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="" href="bajaEntrenadores.html">
+                                <span class="">
+                                <i class="fa fa-fw fa-industry"></i>
+                                </span>
+                                <span class="">
+                                    Dar de baja entrenadores
+                                </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="" href="visualizarUsuario.html">
+                                <span class="">
+                                <i class="fa fa-fw fa-globe"></i>
+                                </span>
+                                <span class="">
+                                    Visualizar usuario 
+                                </span>
+                            </a>
+                         </li>
+                        <li class="">
+                        <a class="" href="visualizarEvaluaciones.html">
+                            <span class="">
+                            <i class="fa fa-fw fa-users"></i>
+                            </span>
+                            <span class="">
+                                Visualizar evaluaciones de los usuarios 
+                            </span>
+                        </a>
+                        </li>
+                        <li class="">
+                            <a class="" href="bajaUsuarios.html">
+                                <span class="">
+                                <i class="fa fa-fw fa-cogs"></i>
+                                </span>
+                                <span class="">
+                                    Dar de baja a usuarios
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                </div>
+                <div class="dashboard-content">
+                <div class="page" id="dashboard">
+                    <div class="page-header">
+                        <h1 class="page-title">Administrador Fitnnes Club</h1>
+                    </div>
+                    <div class="page-body">
+                        
+                    </div>
+                    <div class="page-footer">
+                        <ul class="pagination"></ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

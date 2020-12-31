@@ -1,0 +1,60 @@
+$(document).ready(function(){
+   $(".actualizarEntrenadoresclick").click(function(){
+    console.log("si");
+    $("#wrapper").hide();
+    $("#wrapper2").hide();
+    $("#wrapper3").hide();
+    $("#wrapper4").hide();
+    $("#wrapper5").hide();
+    $("#wrapper1").show();
+  });
+   $(".dardeBajaclickEntrenador").click(function(){
+    console.log("si");
+    $("#wrapper").hide();
+    $("#wrapper3").hide();
+    $("#wrapper4").hide();
+    $("#wrapper5").hide();
+    $("#wrapper1").hide();
+    $("#wrapper2").show();
+  });
+  $(".vizualizarUsuarioclick").click(function(){
+    console.log("si");
+    $("#wrapper").hide();
+    $("#wrapper1").hide();
+    $("#wrapper2").hide();
+    $("#wrapper4").hide();
+    $("#wrapper5").hide();
+    $("#wrapper3").show();
+  });
+    $(".evaluacionesUsuariosclick").click(function(){
+    console.log("si");
+    $("#wrapper").hide();
+    $("#wrapper1").hide();
+    $("#wrapper2").hide();
+    $("#wrapper3").hide();
+    $("#wrapper5").hide();
+    $("#wrapper4").show();
+  });
+  $(".darBajaUsuarioclick").click(function(){
+    console.log("si");
+    $("#wrapper").hide();
+    $("#wrapper1").hide();
+    $("#wrapper2").hide();
+    $("#wrapper3").hide();
+    $("#wrapper4").hide();
+    $("#wrapper5").show();
+  });
+    $(".registarEntrenadoresclick").click(function(){
+    console.log("si");
+    $("#wrapper").show();
+    $("#wrapper1").hide();
+    $("#wrapper2").hide();
+    $("#wrapper3").hide();
+    $("#wrapper4").hide();
+    $("#wrapper5").hide();
+  });
+});
+
+
+
+
